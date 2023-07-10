@@ -1,0 +1,40 @@
+{
+  "name": "my-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "skr dev",
+    "build": "skr build --clean",
+    "lint": "skr lint",
+    "lint-staged": "skr lint --staged --fix --auto-stage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@reskript/cli": "6.0.0",
+    "@reskript/cli-build": "6.0.0",
+    "@reskript/cli-dev": "6.0.0",
+    "@reskript/cli-lint": "6.0.0",
+    "@reskript/config-lint": "^6.0.0",
+    "@types/lodash": "^4.14.195",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@types/styled-components": "^5.1.26",
+    "eslint": "^8.44.0",
+    "stylelint": "^15.10.1",
+    "typescript": "^5.1.6",
+    "webpack": "^5.88.1"
+  },
+  "dependencies": {
+    "antd": "^5.6.4",
+    "axios": "^1.4.0",
+    "core-js": "^3.31.1",
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "styled-components": "^6.0.3"
+  }
+}

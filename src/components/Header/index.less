@@ -1,0 +1,31 @@
+@import '../../styles/theme.var.less';
+
+.root {
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: @header-height;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #1e1e1e;
+}
+
+.dark {
+    background-color: #4f4f4f;
+}
+
+.navItem {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.6;
+    
+    &:not(:nth-of-type(0)) {
+        margin-left: 10px;
+    }
+}
+
+.active {
+    opacity: 1;
+}
